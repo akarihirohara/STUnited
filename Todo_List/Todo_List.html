@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
-    <link rel="stylesheet" href="Todo_List.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="Todo_List.css" />
 </head>
 <body>
-    <app>
+  <app>
 
-        <header>
-            <div class="header">
-                <div class="container-header">
-                    <h1 class="header-title">Todo List</h1>
-                    <button class="clear-all" type="button" aria-label="Clear all todos">CLEAR ALL</button>
-                </div>
-            </div>
-        </header>
+    <header class="site-header">
+      <div class="header-row">
+        <h1 class="header-title">Todo List</h1>
+        <button class="clear-all" type="button" aria-label="Clear all todos">CLEAR ALL</button>
+      </div>
+    </header>
 
-        <main>
-            <div class="container-main">
-                <ul class="contents" aria-live="polite"></ul>
-                <form class="form" autocomplete="off">
-                    <textarea id="todo-input" placeholder="Write your todo..."></textarea>
-                    <input class="add" type="submit" value="Add your Todo">           
-                </div>
-            </div>
-        </main>
-    </app>
+    <main class="site-main">
+      <div class="main-container">
+        <ul class="contents" aria-live="polite"></ul>
+      </div>
+    </main>
 
-    <script src="Todo_List.js" defer></script>
+    <footer class="footer-form" role="contentinfo">
+      <form class="form" autocomplete="off">
+        <label class="sr-only" for="todo-input">Add a todo</label>
+        <textarea id="todo-input" placeholder="Write your Todo..."></textarea>
+        <input class="add" type="submit" value="Add your Todo" />
+      </form>
+    </footer>
+  </app>
 
+  <script src="Todo_List.js" defer></script>
 </body>
 </html>
