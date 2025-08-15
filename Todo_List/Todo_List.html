@@ -8,24 +8,28 @@
 </head>
 <body>
     <app>
+
         <header>
             <div class="header">
-                <div class="container">
-                    <div class="header-title">Todo List</div>
-                    <div class="clear-all">CLEAR ALL</div>
+                <div class="container-header">
+                    <h1 class="header-title">Todo List</h1>
+                    <button class="clear-all" type="button" aria-label="Clear all todos">CLEAR ALL</button>
                 </div>
             </div>
         </header>
+
         <main>
-            <div class="container">
-                <div class="contents">
-                    <div class="form">
-                        <textarea></textarea>
-                        <input class="add" type="button" value="Add your Todo">           
-                    </div>
+            <div class="container-main">
+                <ul class="contents" aria-live="polite"></ul>
+                <form class="form" autocomplete="off">
+                    <textarea id="todo-input" placeholder="Write your todo..."></textarea>
+                    <input class="add" type="submit" value="Add your Todo">           
                 </div>
             </div>
         </main>
     </app>
+
+    <script src="Todo_List.js" defer></script>
+    
 </body>
 </html>
