@@ -1,0 +1,51 @@
+/* style.css */
+body {
+	font-family:
+'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f0f0f0;
+}
+
+app {
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    background-color: #47575c;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.header-title {
+    float: left;
+    font-size: 70px;
+	color: white;
+}
+
+.clear-all {
+    float: right;
+    font-size: 30px;
+    line-height: 100px;
+    background-color: #8b8989;
+    color: white;
+}
+
+textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  color: #b0b0b0;
+  border: 1px solid #dee7ec;
+}
+
+.add {
+  background-color: #dee7ec;
+  color: #889eab;
+}
