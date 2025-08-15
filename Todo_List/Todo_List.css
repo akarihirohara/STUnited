@@ -7,18 +7,19 @@ body {
 	background-color: #f0f0f0;
 }
 
-app {
-    width: 100%;
-}
+
 
 header {
     height: 100px;
     background-color: #47575c;
+    border-bottom: 2px solid #000000;
 }
 
 .container {
-    width: 1300px;
-    margin: 0 auto;
+    width: 800px;
+    margin: 0 auto;  
+    background-color: white;
+    box-shadow: 10px 10px #ababab;
 }
 
 .header-title {
@@ -35,17 +36,24 @@ header {
     color: white;
 }
 
+.contents {
+    height: 700px;
+}
+
+.form {
+    height: 50px;
+}
 textarea {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 30px;
-  padding: 20px;
+  width: 550px;
+  margin: 600px 20px 0px;
+  padding: 10px;
   font-size: 18px;
-  color: #b0b0b0;
-  border: 1px solid #dee7ec;
+  border: 1px solid #444444;
 }
 
 .add {
+  width: 100px;
+  margin: 10px 20px 10px;  
   background-color: #dee7ec;
   color: #889eab;
 }
