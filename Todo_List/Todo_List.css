@@ -11,7 +11,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.site-header {
+.header {
   position: sticky;
   top: 0;
   z-index: 10;
@@ -50,11 +50,11 @@ body {
   filter: brightness(1.06);
 }
 
-.site-main {
+.main {
   min-height: 0;
 }
 
-.main-container {
+.container {
   max-width: 800px;
   margin: 16px auto;
   background: #fff;

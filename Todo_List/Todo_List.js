@@ -147,6 +147,6 @@ textareaEl.addEventListener('input', () => {
 window.addEventListener('beforeunload', (e) => {
   if (typing) {
     e.preventDefault();
-    e.returnValue = ''; // Chrome系はこれが必要
+    e.returnValue = '';
   }
 });
