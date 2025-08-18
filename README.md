@@ -18,3 +18,6 @@ If you click the checkbox to the left of a Todo, a line will be drawn through th
 Click the trash can to the right of a todo to delete it.
 
 Clicking the CLEAR ALL button on the top right of the screen will display a confirmation screen asking if you want to delete all Todos. If you confirm, all Todos will be deleted.
+
+## Points to note
+my-react-app is an unrelated file
